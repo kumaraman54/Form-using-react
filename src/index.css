@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    height:100vh;
+    width: 100vw;
+    background-color: #faf6e9;
+}
+.head{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: #8b8b8b;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid blACK;
+}
+.dum{
+    width: 100px;
+    /* background-color: #e7eaf6; */
+}
+span{
+    color: rgb(11, 11, 11);
+    padding:5px;
+    font-size: larger;
+
+}
+.box{
+
+    height: max-content;
+    width: 1300px;
+    margin-top: 50px;
+    background-color: #fffdf6;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: 10px 10px 10px rgba(168, 154, 154, 0.703);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #494949;
+}
+.title{
+    text-align: center;
+    font-style: italic;
+    color:#494949;
+    text-decoration: underline;
+
+}
+.details p{
+    
+    padding-top: 10px ;
+    margin-left:40px;
+    padding: 10px; 
+    color: #1c1c1c;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    display: block;
+
+
+}
+.details input{
+    color: #161515;
+    width: 245px;
+    border: 1px solid black;
+    font-size: 1rem;
+    letter-spacing: 0;
+    background: #ece8d9;
+    border-radius: 3px;
+    font-weight: 600;
+    padding-block: 7px;
+    padding-inline: 12px;
+}
+.name{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.age{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gender{
+    display: flex;
+    width: fit-content;
+    gap: 10px;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: px;
+
+   
+}
+.select{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+    color: #494949;
+}
+
+#male{
+    width: 13px;
+    ;
+}
+#female{
+    width: 13px;
+}
+#other{
+    width: 13px;
+}
+.address{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.region{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#country{
+    width: 250px;
+    padding-block: 7px;
+    padding-inline: 12px;
+    background: #ece8d9;
+    font-weight: 600;
+    border-radius: 3px;
+    color: #161515
+}
+.pass{
+   
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+}
+#freeform{
+    color: #333;
+    height: 150px;
+    width: 400px;
+    border: 1px solid #ebebeb;
+    font-size: 1rem;
+    letter-spacing: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding-block: 8px;
+    padding-inline: 15px;
+}
+.check{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-left: 55px;
+}
+#html{
+    
+    width: 20px;
+    margin-right: 5px;
+}
+#css{
+    width: 20px
+    
+}
+#javascript{
+    width: 20px;
+    margin-right: 5px;
+}
+.details button{
+    width: 185px;
+    height: 50px;
+    border: 1px solid black;
+    outline: 0;
+    background-color: #494949;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px; 
+    box-shadow: 0 10px 10px rgba(168, 154, 154, 0.703);
+    margin-inline-start: 45px;
+    margin-inline-end: 45px;
+    margin-block-start: 1.3em;
+    margin-block-end: 1.3em;
+    margin-bottom: 20px;
+
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.togglebox{
+    width: 87px;
+    height: 40px;
+    background-color:#000;
+    display: flex;
+    border-radius: 1000px;
+    cursor: pointer;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    background-color: #fff;
+    border-radius: 1000px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    transition: .3s;
+    
+}
+
+#checkbox{
+    display: none;
+}
